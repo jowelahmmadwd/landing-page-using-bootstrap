@@ -1,0 +1,115 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.section-top{
+    background-image: url(images/head-background.jpg);
+}
+.manu-bar{
+    position: relative;
+    left: 50%;
+}
+.manu-color{
+    background-color: #212529;
+    
+}
+.logo{
+    margin: 150px 0 20px 0;
+
+}
+.dowanlod{
+    margin-top: 50px;
+}
+.b-dowanload{
+    margin-bottom: 50px;
+    border: 1px solid  white;
+}
+.hr{
+    width: 50px;
+    border: 1px solid white;
+    margin: 20px 0;
+}
+.logo-text, .trial-form{
+    border: 1px solid wheat;
+}
+
+.form-page{
+    width: 300px;
+    height: 320px;
+    margin: 150px auto 50px auto;
+    background-color: white;
+    border-radius: 2px;
+}
+.head-label{
+    background-color: #d6d6d6;
+    font-size: 15px;
+    color: rgb(20, 20, 20);
+    text-align: center;
+    padding: 20px 0;
+
+}
+.form-page input{
+    padding: 20px 80px 5px 0;
+    margin: 0 20px;
+    border: none;
+    border-bottom: 1px solid rgb(43, 42, 42);
+}
+.form-page p{
+    background-color: rgb(247, 105, 54);
+    margin-top: 60px;
+    text-align: center;
+    padding: 10px 0;
+}
+.socila-media{
+    margin: 20px 0 0 20px;
+    text-align: center;
+ 
+}
+.socila-media>a{
+    color: #9b9b9b;
+    margin: 10px 15px ;
+}
+.tab{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    text-align: center;
+    border-radius: 5px;
+
+}
+.tab>a{
+    color: white;
+    text-decoration: none;
+   
+}
+.fs-7{
+    font-size: 12px;
+    width: 500px;
+    text-align: justify;
+    margin: 25px 0;
+}
+.tab:hover{
+    background-color: orange;
+}
+.tab-section{
+    margin: 130px 0 100px 0;
+}
+/* section end */
+.card{
+    transition: 1s;
+}
+.extra{
+    font-size: 15px;
+    visibility: hidden;
+}
+.card:hover p{
+    visibility: visible;
+}
+.card:hover{
+    transform: scale(1,1.20);    
+}
+.form-control{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+/* ----end---- */
